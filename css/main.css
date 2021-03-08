@@ -534,7 +534,7 @@
   font-family: "Lato","Noto Sans";
 }
 
-.solutions-section .paragraphs h1 {
+.solutions-section .paragraphs h2 {
   font-size: 1.7rem;
   font-weight: 500;
   color: #4e4e4e;
@@ -576,7 +576,7 @@
   padding: 5rem;
 }
 
-.testimonials-section h1 {
+.testimonials-section h2 {
   font-family: "Tahoma", sans-serif;
   font-size: 2rem;
   font-weight: 500;
@@ -695,7 +695,7 @@
   margin-bottom: 1.5rem;
 }
 
-.contacts .textArea h1 {
+.contacts .textArea h2 {
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -977,7 +977,7 @@
     min-height: 200px;
     margin-top: 10%;
   }
-  .solutions-section .paragraphs h1 {
+  .solutions-section .paragraphs h2 {
     margin-bottom: 15%;
   }
   .solutions-section .sol-img {
@@ -994,7 +994,7 @@
     width: 100%;
     padding: 1.5rem;
   }
-  .testimonials-section h1 {
+  .testimonials-section h2 {
     margin-top: 20%;
     margin-bottom: -1%;
   }
@@ -1039,10 +1039,10 @@
     margin-top: 15%;
     margin-bottom: 0%;
   }
-  .contacts .textArea p, .contacts .textArea h1 {
+  .contacts .textArea p, .contacts .textArea h2 {
     width: 99%;
   }
-  .contacts .textArea h1 {
+  .contacts .textArea h2 {
     font-size: 2rem;
   }
   .contacts .textArea p {

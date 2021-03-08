@@ -1,0 +1,37 @@
+.solutions-section{
+    width:100%;
+    min-height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+
+    .paragraphs{
+        width: 50%;
+        min-height: 300px;
+        text-align:left;
+        font-family:"Lato","Noto Sans";
+
+        h1{
+            font-size: 1.7rem;
+            font-weight: 500;
+            color: #4e4e4e;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        p{
+            color: rgb(83, 83, 83);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    }
+
+    .sol-img{
+        width: 50%;
+        img{
+            width:100%;
+        }
+    }
+}

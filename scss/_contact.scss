@@ -1,0 +1,56 @@
+.contacts{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 500px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient( to top, rgba(#252525, 1), rgba(#1f1f1f, 0.3)) ,url('../img/Layer1.png') no-repeat bottom center;
+    background-size: cover;
+
+    .textArea{
+        min-width: 80%;
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        margin-top:8%;
+        margin-bottom: 1.5rem;
+
+        h1 {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+    }
+
+    .contact_detials{
+        width: 60%;
+        margin-bottom: 4%;
+
+        input{
+            min-width: 31.77%;
+            height: 2.5rem;
+            margin: 15px 5px;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        textarea{
+            min-width: 99%;
+            min-height: 150px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .submit-btn{
+            min-width: 17%;
+            min-height: 2.5rem;
+            margin-top:15px;
+            border-radius:20px;
+            background: rgb(255, 5, 5);
+            color: #fff;
+            font-size: 1rem;
+            border:none;
+        }
+    }
+}
